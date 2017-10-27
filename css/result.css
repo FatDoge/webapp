@@ -1,0 +1,113 @@
+*{
+	padding: 0;
+	margin: 0;
+	word-break: keep-all;
+}
+html{
+	min-height: 100vh;
+	background: #29bde0;
+}
+body{
+	background: #29bde0;
+}
+a:hover{
+	text-decoration: none;
+}
+/*header*/
+.header{
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	z-index: 99;
+	background: #29bde0;
+	margin-bottom: 50px;
+}
+.header .row{
+	color: white;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	font-weight: lighter;
+}
+.background{
+	background-image: url(../images/no1.png);
+    background-size: contain;
+    width: 15rem;
+    height: 10rem;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    top: 50px;
+    position: relative;
+}
+.tips{
+	margin-top: 50px;
+	font-size: 20px;
+	color: #ffc865;
+	font-weight: bold;
+	word-break: break-all;
+}
+.container{
+	padding-left: 35px;
+	padding-right: 35px;
+	color: white;
+	font-weight: lighter;
+	font-size: 16px;
+}
+.time{
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+.days{
+	padding-left: 20px;
+	width: 100%;
+	background: #fff;
+	font-weight: lighter;
+	height: 110px;
+	color: #a6a6a6;
+	font-size: 17px;
+	border: 1px solid #dddddd;
+}
+.days .dayNum{
+	margin-top: 10px;
+	font-size: 21px;
+	color: black;
+	line-height: 30px;
+	height: 30px;
+}
+.days .dayTime{
+	margin-top: 10px;
+	color: #c7c7c7;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+}
+.days .dayAction{
+	height: 30px;
+	line-height: 30px;
+}
+.clearIt{
+	width: 100%;
+	height: 70px;
+}
+.myBtn{
+	width: 100%;
+	height: 70px;
+	background: rgba(85, 192, 218, 0.75);;
+	position: fixed;
+	z-index: 999;
+	bottom: 0px;
+	display: inline-block;
+}
+.myBtn .row{
+	padding:0;
+}
+
+.myBtn button{
+	width: 85%;
+	margin: auto;
+	height: 50px;
+	vertical-align: middle;
+	font-size:18px;
+	margin-top: 10px;
+}
+
